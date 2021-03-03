@@ -8,6 +8,10 @@ Updated with new release of Spring Cloud
 * Resilience4j is used instead of Hystrix
 
 # Endpoints
+_Eureka Service Discovery_
+
+http://localhost:8761/
+
 _With Api Gateway_
 
 http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
