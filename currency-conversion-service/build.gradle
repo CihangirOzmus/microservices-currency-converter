@@ -35,6 +35,11 @@ dependencyManagement {
     }
 }
 
+bootBuildImage {
+    imageName = "cozmus/${project.name}:${project.version}"
+    pullPolicy = "IF_NOT_PRESENT"
+}
+
 test {
     useJUnitPlatform()
 }
